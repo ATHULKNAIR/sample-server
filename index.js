@@ -7,6 +7,6 @@ app.get('/',(req,res)=>{
     res.send('Hello World')
 })
 
-app.listen(PORT || 3000,()=>{
+app.listen(PORT || 8000,()=>{
     console.log('listening to port 3000...')
 })
